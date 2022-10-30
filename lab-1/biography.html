@@ -3,16 +3,52 @@
 	<head>
 		<meta charset="utf-8">
 		<title>biography</title>
+		<style>
+			#up{
+				text-align: center;
+				font-size: 22px;
+			}
+			#zmist{
+				text-align: center;
+			}
+			.menu-item{
+				width: 600px;
+				height: 300px;
+				background: blue;
+				color: floralwhite;
+				border: 2px solid black;
+			}
+			.menu-item:hover{
+				background: magenta;
+				color: black;
+			}
+			.menu-item:active{
+				background: yellow;
+			}
+			article{
+				font-size: 120%;
+			}
+			h2{
+				font-size: 120%;
+			}
+			p{
+				background: lightblue;
+				color: darkgreen;
+			}
+			.to-top{
+				text-transform: uppercase;
+			}
+		</style>
 	</head>
 	<body>
 		<h1 id="up">Автобіографія Куцінського Дениса Євгеновича</h1>
-		<a href="index.html">Назад на головну</a>
+		<a class="back" href="index.html">Назад на головну</a>
 		<h3 id="zmist">Зміст</h3>
-		<a href="#base">Базова інформація</a><br>
-		<a href="#childhood">Дитинство</a><br>
-		<a href="#school">Школа</a><br>
-		<a href="#outsideschool">Поза школою</a><br>
-		<a href="#university">Університет</a><br>
+		<a class="menu-item" href="#base">Базова інформація</a><br>
+		<a class="menu-item" href="#childhood">Дитинство</a><br>
+		<a class="menu-item" href="#school">Школа</a><br>
+		<a class="menu-item" href="#outsideschool">Поза школою</a><br>
+		<a class="menu-item" href="#university">Університет</a><br>
 		<article>
 			<h2 id="base">Базова інформація</h2>
 			<p>Моя Біографія не є такою детальною, але тут описані основні аспекти кожної категорії<br> Зараз мені 17 і я студент ПНУ і староста своєї групи<br>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex aperiam odit ea laboriosam perferendis commodi inventore dolorum ipsum accusantium recusandae. </p>
@@ -40,7 +76,7 @@
 		</article>
 		<a href="#zmist">До змісту</a><br><br>
 		<hr>
-		<a href="#up">Уверх</a><br><br>
+		<a class="to-top" href="#up">Уверх</a><br><br>
 		<a href="biography.html">Біографія</a><br>
 		<a href="nowadays.html">Сьогодення</a><br>
 		<a href="friends.html">Друзі</a><br>
